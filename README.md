@@ -1,6 +1,6 @@
 # Projeto MongoDB com Spring Boot 
 
-Feito com Prof. Dr. Nelio Alves.
+Efetuado acompanhamento de todas as aulas com Prof. Dr. Nelio Alves, curso da Udemy.
 
 Objetivo geral:
 
@@ -413,6 +413,17 @@ Consultas feitas no Postman
        ]
      
 }
+
+########################################################################################
+
+Porcesso para execultar banco de dados MongoDB:
+
+Tecla Windows + R, digitar CMD, execultar o comando mongod, verificar se está conectado.
+
+Irá aparecer da seguinte forma (waiting for connections on port 27017)
+
+![image](https://github.com/Djalves424/workshop-springboot-mongodb/assets/108296040/27d9eadf-ba8b-4882-921a-499da8310847)
+
 
 
 
