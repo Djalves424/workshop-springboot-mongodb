@@ -34,7 +34,7 @@ Checklist Windows:
 
 •	https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/ -> Set up the MongoDB environment
 
-########################################################################################
+#######################################################################################
 
 o	Criar pasta \data\db
 
@@ -52,7 +52,7 @@ o	Escolher somente o pacote Web por enquanto
 
 •	Se quiser mudar a porta padrão do projeto, incluir em application.properties: server.portw${port:8081}
 
-########################################################################################
+#######################################################################################
 
 Checklist para criar entidades:
 •	Atributos básicos
@@ -84,7 +84,7 @@ return ResponseEntity.ok().body(list);
           
 }
 
-########################################################################################
+#######################################################################################
 
 Conectando ao MongoDB com repository e service
 
@@ -118,7 +118,7 @@ o	Criar coleção: user
 
 o	Criar alguns documentos user manualmente
 
-########################################################################################
+#######################################################################################
 
 Checklist:
 •	No subpacote config, criar uma classe de configuração Instantiation que implemente CommandlLineRunner
@@ -130,7 +130,7 @@ User alex w new User(nell, "Alex Green", "alex@gmail.com");
 
 User bob w new User(nell, "Bob Grey", "maria@gmail.com");
 
-########################################################################################
+#######################################################################################
 
 Usando padrão DTO para retornar usuários
 
@@ -152,7 +152,7 @@ Checklist:
 
 •	Em UserResource, refatorar o método findAll
 
-########################################################################################
+#######################################################################################
 
 Obtendo um usuário por id
 
@@ -180,7 +180,7 @@ o	StandardError
 
 o	ResourceExceptionHandler
 
-########################################################################################
+#######################################################################################
 
 Inserção de usuário com POST
 
@@ -190,7 +190,7 @@ Checklist:
 
 •	Em UserResource, implementar o método insert
 
-########################################################################################
+#######################################################################################
 
 Deleção de usuário com DELETE
 
@@ -200,7 +200,7 @@ Checklist:
 
 •	Em UserResource, implementar o método delete
 
-########################################################################################
+#######################################################################################
 
 AtuaOização de usuário com PUT
 
@@ -220,7 +220,7 @@ Checklist:
 
 •	Em UserResource, implementar o método update
 
-########################################################################################
+#######################################################################################
 
 Criando entity Post com User aninhado
 
@@ -333,7 +333,7 @@ Checklist:
 
 •	Em PostResource, implementar o endpoint
 
-########################################################################################
+#######################################################################################
 
 Consultas feitas no Postman
 
@@ -414,7 +414,7 @@ Consultas feitas no Postman
      
 }
 
-########################################################################################
+#######################################################################################
 
 Porcesso para execultar banco de dados MongoDB:
 
@@ -423,6 +423,13 @@ Tecla Windows + R, digitar CMD, execultar o comando mongod, verificar se está c
 Irá aparecer da seguinte forma (waiting for connections on port 27017)
 
 ![image](https://github.com/Djalves424/workshop-springboot-mongodb/assets/108296040/27d9eadf-ba8b-4882-921a-499da8310847)
+
+#######################################################################################
+
+Abrindo software banco de dados MongoDB, clicar em connect
+
+![image](https://github.com/Djalves424/workshop-springboot-mongodb/assets/108296040/adb219d1-b7e8-41b9-ae85-299a7e76f1ca)
+
 
 
 
